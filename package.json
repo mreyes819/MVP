@@ -1,17 +1,21 @@
 {
-  "name": "Lyft Driver Dashboard",
+  "name": "MVP",
   "version": "1.0.0",
-  "description": "A simple full stack Lyft Driver Dashboard App.",
-  "main": "app.js",
+  "description": "A Basic Lyft Driver Dashboard",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mysql": "^2.13.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "save": "^2.3.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "mysql": "^2.13.0"
-  }
+  "license": "ISC"
 }
-
